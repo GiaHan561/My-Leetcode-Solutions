@@ -1,0 +1,8 @@
+class Solution:
+    def removeElement(self, nums: List[int], val: int) -> int:
+        slow_pt = 0 
+        for fast_pt in range(len(nums)):
+            if nums[fast_pt] != val:
+                nums[slow_pt] = nums[fast_pt]
+                slow_pt +=1
+        return slow_pt       
