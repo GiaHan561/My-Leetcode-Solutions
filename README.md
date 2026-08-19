@@ -2,22 +2,30 @@
 
 Welcome to my **LeetCode solutions** repository!
 
-This is where I store my solutions while practicing **Data Structures & Algorithms with Python**.
-I'm using this repo to keep track of my progress, learn different problem-solving approaches, and get better at coding step by step.
+This is my personal space for practicing **Data Structures & Algorithms with Python**.
+I use this repo to save my solutions, review what I've learned, and track my progress over time.
 
-## 📚 Problems
+## 📚 Topics
 
-Each file contains my Python solution for a LeetCode problem.
+The problems in this repository cover different LeetCode topics, such as:
 
-Currently practicing:
+* Arrays & Strings
+* Hash Table
+* Two Pointers
+* Sliding Window
+* Stack & Queue
+* Linked List
+* Binary Search
+* Sorting
+* Trees & Binary Trees
+* Dynamic Programming
+* Greedy
+* Backtracking
 
-* `26` — Remove Duplicates from Sorted Array
-* `27` — Remove Element
-* `36` — Valid Sudoku
-* `55` — Jump Game
-* `118` — Pascal's Triangle
-* `119` — Pascal's Triangle II
+I'll keep adding more problems as I learn and practice. 🚀
 
-More problems will be added as I continue learning. 🚀
+## 🎯 Goal
 
-> Learning by solving, one problem at a time.
+The goal isn't just to solve as many problems as possible, but to **understand the thinking behind each solution** and gradually become better at problem solving.
+
+> One problem at a time. One step closer to becoming a better programmer. 💻
