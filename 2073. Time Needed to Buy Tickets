@@ -1,0 +1,18 @@
+from collections import deque
+
+class Solution(object):
+    def timeRequiredToBuy(self, tickets, k):
+        queue = deque(range(len(tickets)))
+        time = 0
+
+        while True:
+            person = queue.popleft()
+            tickets[person] -=1
+            time +=1
+
+            if tickets[person] > 0:
+                queue.append(person)
+            if tickets[person] == 0 and person == k:
+                break
+
+        return time 
